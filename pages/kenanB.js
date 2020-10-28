@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
-function KenanB(props) {
+import axios from 'axios'
+import {withRouter} from 'next/router'
+function KenanB({children}) {
      return (
           <div>
                <Link href="/">
@@ -10,7 +12,10 @@ function KenanB(props) {
                     </a>
                     
                 </Link>
+                
           </div>
       );
 }
-export default KenanB
+
+
+export default withRouter(KenanB)
