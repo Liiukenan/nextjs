@@ -10,7 +10,6 @@ function Kenan({router}) {
                         <span>返回首页</span>
                         <div>{router.query.name}来为我服务</div>
                     </a>
-                    
                 </Link>
           </div>
       );
