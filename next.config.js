@@ -5,5 +5,8 @@ module.exports = {
       config = withStylus().webpack(config, ...args);
 
       return config;
-    }
+    },
+    devIndicators: {
+        autoPrerender: false,
+    },
 }
