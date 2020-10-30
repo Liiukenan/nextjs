@@ -5,6 +5,7 @@ import next from 'next'
 import Kenans from './components/kenans'
 
 
+
 function Home(props) {
     Router.events.on('routeChangeStart',(...args)=>{
       console.log('1.routeChangeStart,路由开始变化，参数',...args);
@@ -57,11 +58,14 @@ function Home(props) {
               </div>
 
               <div>
-                {/* <Link href="#hash"><a>hash锚点测试</a></Link> */}
+                <Link href="#hash"><a>hash锚点测试</a></Link>
               </div>
-              {/* <div id="hash">
+              <div>
+                <button onClick={()=>{Router.push('/getStyle')}}>点击</button>
+              </div>
+              <div id="hash">
                 跳到这里了嘛
-              </div> */}
+              </div>
 
               
 

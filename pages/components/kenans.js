@@ -1,7 +1,9 @@
-function kenans({children}) {
+function kenans(props) {
+    console.log(props);
      return (
           <button>
-              {children}
+              {/* {children} */}
+              1234
           </button>
       );
 }
