@@ -6,6 +6,9 @@ function myheader(props) {
               <Head>
                   <title>nextjs真棒</title>
               </Head>
+              <div>
+                  134
+              </div>
           </div>
       );
 }

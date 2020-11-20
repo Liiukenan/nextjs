@@ -1,6 +1,8 @@
 import React from 'react'
 // import Head from 'next/head'
 import Myheader from './components/myheader'
+//babel-plugin-import  按需加载
+
 function header(props) {
      return (
           <div>
