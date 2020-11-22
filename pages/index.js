@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Router  from 'next/router'
 import next from 'next'
 import Kenans from './components/kenans'
+import "../styles/index.styl"
 
 
 
